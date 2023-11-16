@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width:  100vh;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 500px;
+
+    /* Para centrar algo, podemos usar el margin 0 auto
+    Lo que hace es no agregan un margin de arriba a abajo pero
+    si a los 2 lados haciendo que se centre */
+    margin: 0 auto;
+    background-color: red;
+}

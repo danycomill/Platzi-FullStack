@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+
+    /* El primer dijito es para arriba y abajo, el segundo es para derecha e izquierda */
+    padding: 20px 60px;
+}

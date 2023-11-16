@@ -1,0 +1,15 @@
+.text-container{
+
+    /* Em significa que multiplicamos el tamaño de funte predeterminado por
+    la cantidad que le pongamos */
+    font-size: 1em;
+
+    /* font-size: 1.5em; */
+
+    /* En este caso estamos multiplicando 16 x 1.5  = 24 
+    Lo que significa que nuestra fuente ahora es igual a 24px*/
+}
+
+.text-container div{
+    font-size: 1.5em;
+}

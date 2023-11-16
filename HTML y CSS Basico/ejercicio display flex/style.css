@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+ }
+body{
+     font-size: 1.6rem;
+}
+.box{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+
+
+
+/* /////////////////////////// */
+/* ESTILOS DE CAJAS DE COLORES */
+/* /////////////////////////// */
+
+
+
+
+.container aside{
+    display: inline-block;
+    padding-left: 3%;
+}
+.container aside .box{
+    margin: 1rem;
+}
+
+.container aside div p{
+    text-align: center;
+    color: #ffff;
+}
+
+.container aside .box1{
+    background-color: rgb(0, 0, 0);
+}
+
+.container aside .box2{
+    background-color: rgb(20, 20, 20);
+}
+
+.container aside .box3{
+    background-color: rgb(42, 42, 42);
+}
+
+.container aside .box4{
+    background-color: rgb(49, 49, 49);
+}
+
+.container aside .box5{
+    background-color: rgb(60, 60, 60);
+}
+
+.container aside .box6{
+    background-color: rgb(65, 65, 65);
+}
+
+.container aside .box7{
+    background-color: rgb(65, 65, 65);
+}
+
+.container aside .box8{
+    background-color: rgb(60, 60, 60);
+}
+
+.container aside .box9{
+    background-color: rgb(49, 49, 49);
+}
+
+
+.container aside .box10{
+    background-color: rgb(42, 42, 42);
+}
+
+.container aside .box11{
+    background-color: rgb(20, 20, 20);
+}
+
+.container aside .box12{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+/* //////////////////////////// */
+/* ESTILOS BARRA DE NAVEGACION */
+/* //////////////////////////// */
+
+
+main .nav{
+    background-color: black;
+    color: aliceblue;
+}
+
+.container .nav ul {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.container .nav ul li{
+    margin: 40px;
+}
+
+
+
+
+/* //////////////////////////// */
+/* ESTILOS DEL FOOTER */
+/* //////////////////////////// */
+
+
+
+
+footer{
+    background-color: black;
+    color: #ffff;
+}
+
+footer h3{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
